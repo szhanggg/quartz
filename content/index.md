@@ -1,6 +1,5 @@
 ---
-title: Welcome to Quartz
+title: Welcome to Stephen's Notes
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+These are all my notes across all my classes and personal learning.
