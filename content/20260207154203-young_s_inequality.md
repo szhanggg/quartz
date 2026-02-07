@@ -21,14 +21,6 @@ Consider \\(f(x) = \frac{x^{p}}{p} - xb\\). Following this, we get that \\(f'(x)
 2.  \\(x > b^{1/p-1} \implies f'(x) > 0\\)
 
 Thus, we have that \\(x = b^{1/p-1}\\) is a minimum. Plugging in, we have
-\\[
-
-\begin{aligned}
-
-\end{aligned}
-
-\\]
-Since this is the minimum point, we have that \\(f(x) \ge -\frac{b^{q}}{q}\\). So
 
 \\[
 
@@ -39,6 +31,8 @@ f(b^{1/p-1}) &= \frac{b^{p/(p-1)}}{p} - (b^{1/(p-1)})b \\\\
 \end{aligned}
 
 \\]
+
+Since this is the minimum point, we have that \\(f(x) \ge -\frac{b^{q}}{q}\\). So
 
 \\[
 \frac{x^{p}}{p} + \frac{b^{q}}{q} \ge xb
