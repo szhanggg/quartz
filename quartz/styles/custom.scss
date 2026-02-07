@@ -40,7 +40,6 @@
 .proof {
   border-left-color: #2ecc71; /* Green */
   background-color: transparent;
-  font-style: italic;
 }
 .proof::before { content: "Proof. "; font-weight: bold; font-style: normal; }
 .proof::after { content: " ◻"; float: right; } /* QED symbol */
