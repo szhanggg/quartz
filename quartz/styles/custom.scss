@@ -1,3 +1,46 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+/* custom.scss */
+
+/* Base style for all math blocks */
+.definition, .lemma, .proposition, .remark, .proof, .example {
+  margin: 1.5rem 0;
+  padding: 1rem 1.5rem;
+  border-left: 4px solid;
+  border-radius: 4px;
+  background-color: var(--highlight); /* Uses Quartz's theme color */
+}
+
+/* Specific colors and labels */
+.definition {
+  border-left-color: #e67e22; /* Orange */
+  background-color: rgba(230, 126, 34, 0.05);
+}
+.definition::before { content: "Definition. "; font-weight: bold; color: #e67e22; }
+
+.proposition {
+  border-left-color: #3498db; /* Blue */
+  background-color: rgba(52, 152, 219, 0.05);
+}
+.proposition::before { content: "Proposition. "; font-weight: bold; color: #3498db; }
+
+.lemma {
+  border-left-color: #9b59b6; /* Purple */
+  background-color: rgba(155, 89, 182, 0.05);
+}
+.lemma::before { content: "Lemma. "; font-weight: bold; color: #9b59b6; }
+
+.remark {
+  border-left-color: #7f8c8d; /* Grey */
+  background-color: rgba(127, 140, 141, 0.05);
+}
+.remark::before { content: "Remark. "; font-weight: bold; font-style: italic; }
+
+.proof {
+  border-left-color: #2ecc71; /* Green */
+  background-color: transparent;
+  font-style: italic;
+}
+.proof::before { content: "Proof. "; font-weight: bold; font-style: normal; }
+.proof::after { content: " ◻"; float: right; } /* QED symbol */
