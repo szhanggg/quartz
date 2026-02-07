@@ -45,13 +45,13 @@
 .proof::before { content: "Proof. "; font-weight: bold; font-style: normal; }
 .proof::after { content: " ◻"; float: right; } /* QED symbol */
 
-.example-block {
+.exampleblock {
   border-left: 4px solid #95a5a6;
   background-color: rgba(149, 165, 166, 0.1);
   padding: 1rem;
   margin: 1rem 0;
 }
-.example-block::before {
+.exampleblock::before {
   content: "Example. ";
   font-weight: bold;
 }
