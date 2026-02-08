@@ -15,7 +15,8 @@ An expression typechecks if it is well-typed.
 
 `(e1, e2...): (t1, t2...)` if `(e1 : v1), (e2: v2)...` where `v1` is of type `t1` and so on.
 
-```sml
+```text
+#+begin_src sml
 let
     val polly = "polly"
 in
@@ -25,4 +26,5 @@ in
         polly ^ "loves 150"
     end
 end
+#+end_src
 ```
