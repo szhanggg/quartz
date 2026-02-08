@@ -13,4 +13,4 @@ An expression typechecks if it is well-typed.
 -   SML will never evaluate any ill-typed expressions.
 -   If an expression \\(e\\) is well-typed, then SML will reduce the expression.
 
-`(e1, e2...): (t1, t2...)` if `(e1 : v1), (e2: v2)...` where `v1` is of type t1 and so on.
+`(e1, e2...): (t1, t2...)` if `(e1 : v1), (e2: v2)...` where `v1` is of type `t1` and so on.
