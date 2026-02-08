@@ -8,6 +8,8 @@ tags: ["15-150"]
 draft: false
 ---
 
+A lot of these notes are transcribed from my friend Ivan Zhang's notes.
+
 [Types in ML]({{< relref "20260208141120-types_in_ml.md" >}})
 
 [Functions in ML]({{< relref "20260208142114-functions_in_ml.md" >}})
