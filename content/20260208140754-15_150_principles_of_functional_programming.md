@@ -11,3 +11,5 @@ draft: false
 [Types in ML]({{< relref "20260208141120-types_in_ml.md" >}})
 
 [Functions in ML]({{< relref "20260208142114-functions_in_ml.md" >}})
+
+[Lists in ML]({{< relref "20260208143522-lists_in_ml.md" >}})
