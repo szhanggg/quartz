@@ -7,3 +7,5 @@ lastmod: 2026-02-08T14:07:00-05:00
 tags: ["15-150"]
 draft: false
 ---
+
+[Types in ML]({{< relref "20260208141120-types_in_ml.md" >}})
