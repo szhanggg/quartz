@@ -15,3 +15,5 @@ A lot of these notes are transcribed from my friend Ivan Zhang's notes.
 [Functions in ML]({{< relref "20260208142114-functions_in_ml.md" >}})
 
 [Lists in ML]({{< relref "20260208143522-lists_in_ml.md" >}})
+
+[Induction in ML]({{< relref "20260208145345-induction_in_ml.md" >}})
