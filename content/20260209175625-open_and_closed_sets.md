@@ -15,7 +15,7 @@ Let \\((X, d)\\) be a metric space.
 For \\(x \in X\\) and \\(r > 0\\), define
 
 \\[
-B(x, r) = \\{y \in X : d(x, y) < r\\} \text{ and } \overline{B}(x, r) = \\{y \in X : d(x, y) \leq r\\}
+B(x, r) = \lbrace y \in X : d(x, y) < r \rbrace \text{ and } \overline{B}(x, r) = \lbrace y \in X : d(x, y) \leq r \rbrace
 \\]
 
 </div>
