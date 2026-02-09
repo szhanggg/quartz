@@ -33,7 +33,7 @@ Summing over all components yields
 
 Furthermore, by Triangle Inequality, we see that
 \\[
-
+\lvert x \cdot y \rvert \leq \sum\_{i=1}^d |x\_i| \cdot |y\_i| \leq \lvert x \rvert\_{p} \lvert y \rvert\_{q}
 \\]
 
 </div>
