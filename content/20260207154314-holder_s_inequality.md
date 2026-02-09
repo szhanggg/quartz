@@ -18,11 +18,11 @@ Suppose \\(p \in [1, \infty]\\) and \\(1/p + 1/q = 1\\). Then \\(\forall x,y\in\
 
 We consider each component separately, and apply [Young's Inequality]({{< relref "20260207154203-young_s_inequality.md" >}}) to each component.
 
-\\(a = \frac{|x\_{i}|{|x|\_{p}}\\), \\(b = \frac{|y\_{i}|{|y|\_{q}}\\)
+\\(a = \frac{|x\_{i}|}{|x|\_{p}}\\), \\(b = \frac{|y\_{i}|}{|y|\_{q}}\\)
 
 From Young's we get
 \\[
-\frac{|x\_{i}||y\_{i}|{|x|\_{p}|y|\_{q}} \le \frac{|x\_{i}|^{p}}{p|x|^{p}\_{p}} + \frac{|y\_{i}|^{q}}{q|y|^{q}\_{q}}
+\frac{|x\_{i}||y\_{i}|}{|x|\_{p}|y|\_{q}} \le \frac{|x\_{i}|^{p}}{p|x|^{p}\_{p}} + \frac{|y\_{i}|^{q}}{q|y|^{q}\_{q}}
 \\]
 
 Summing over all components yields
@@ -34,6 +34,6 @@ Summing over all components yields
 Furthermore, by Triangle Inequality, we see that
 \\[
 
-]\\
+\\]
 
 </div>
