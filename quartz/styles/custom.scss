@@ -54,3 +54,10 @@
   content: "Example. ";
   font-weight: bold;
 }
+
+code:not(pre > code) {
+  background-color: rgba(255, 255, 255, 0.08); /* Very subtle transparent white */
+  padding: 0.1rem 0.3rem;
+  border-radius: 4px;                          /* Slightly rounder corners feel less "heavy" */
+  font-family: var(--codeFont);
+}
