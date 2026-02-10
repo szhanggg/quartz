@@ -38,3 +38,10 @@ fun h x = h (h x)
 ```
 
 The type of `g` is `'a -> 'b`. The type of `h` is `'a -> 'a`.
+
+<div class="remark">
+
+Function application in SML is _left associative_.
+This means that `f g x` is parsed as `(f g) x` and not `f (g x)`.
+
+</div>
