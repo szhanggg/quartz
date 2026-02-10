@@ -18,3 +18,9 @@ and if `e:t'` also follows from the typechecking rules, then `t'` is an instance
 </div>
 
 We say that `t'` is an _instance_ of `t` if one can obtain `t'` from `t` by instantiating type variables in a consistent way.
+
+```sml
+fun fst (x, y) = x
+```
+
+This function would be of type `'a * 'b -> 'a`.
