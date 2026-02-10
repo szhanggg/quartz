@@ -18,3 +18,5 @@ draft: false
 [Lecture 6 Notes](/assets/02180/lecture6.pdf)
 
 [Lecture 7 Notes](/assets/02180/lecture7.pdf)
+
+[Lecture 8 Notes](/assets/02180/lecture8.pdf)
