@@ -87,9 +87,13 @@ Let \\(E \subseteq X\\). We say the _boundary_ of \\(E\\), denoted \\(\partial E
 \\[
 \partial E = \lbrace x \in X : \forall \text{ neighborhoods } N \text{ of } x, N \cap E \neq \emptyset \text{ and } N \cap E^c \neq \emptyset \rbrace
 \\]
-\#+begin_definition
+
+</div>
+
 Basically, the boundary is the set of points such that no matter how small a ball you take around it, it will always intersect both \\(E\\) and its complement.
-\#+begin_definition
+
+<div class="definition">
+
 We say the _closure_ of \\(E\\), denoted \\(\overline{E}\\) is defined as
 \\[
 \overline{E} = \bigcap\_{C \supseteq E, C \text{ closed}} C
