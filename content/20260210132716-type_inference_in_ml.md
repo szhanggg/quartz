@@ -31,3 +31,10 @@ fun sqrf(f, x) = square( f(x) )
 ```
 
 The type of `square` is `int -> int`. Thus, the type of `f` must be `'a -> int`. Therefore, the type of `sqrf` is `(('a -> int) * 'a) -> int`.
+
+```sml
+fun g x = g x
+fun h x = h (h x)
+```
+
+The type of `g` is `'a -> 'b`. The type of `h` is `'a -> 'a`.
