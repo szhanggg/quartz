@@ -24,3 +24,10 @@ fun fst (x, y) = x
 ```
 
 This function would be of type `'a * 'b -> 'a`.
+
+```sml
+fun square x = x * x * 1
+fun sqrf(f, x) = square( f(x) )
+```
+
+The type of `square` is `int -> int`. Thus, the type of `f` must be `'a -> int`. Therefore, the type of `sqrf` is `(('a -> int) * 'a) -> int`.
