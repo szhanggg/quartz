@@ -17,7 +17,3 @@ A lot of these notes are transcribed from my friend Ivan Zhang's notes.
 [Lists in ML]({{< relref "20260208143522-lists_in_ml.md" >}})
 
 [Induction in ML]({{< relref "20260208145345-induction_in_ml.md" >}})
-
-[Polymorphism in ML]({{< relref "20260210132341-polymorphism_in_ml.md" >}})
-
-[Type Inference in ML]({{< relref "20260210132716-type_inference_in_ml.md" >}})
