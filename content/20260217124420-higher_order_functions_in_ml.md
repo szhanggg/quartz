@@ -20,3 +20,13 @@ val incr3: int -> int = plus 3
 
 The idea here is that with a function like `add` that takes in two arguments, we can make
 another function that sets one of the two.
+
+We can write this with some syntatic sugar
+
+```sml
+fun plus x = fn y => x + y
+val sum = fn x => fn y => fn z => x + y + z;
+
+fun plus x y = x + y
+fun sum x y z = x + y + z
+```
