@@ -43,3 +43,13 @@ fun filter p [] = []
     else
         filter p xs
 ```
+
+Thus, `filter` is of type `('a -> bool) -> 'a list -> 'a list`
+
+If we define
+
+```sml
+val keepevens = filter (fn n => n mod 2 = 0)
+```
+
+`keepevens` will be of type `int list -> int list`.
