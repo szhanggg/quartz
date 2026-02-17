@@ -30,3 +30,16 @@ val sum = fn x => fn y => fn z => x + y + z;
 fun plus x y = x + y
 fun sum x y z = x + y + z
 ```
+
+Example: `filter`
+
+```sml
+fun filter p [] = []
+  | filter p (x::xs) =
+    if
+        p(x)
+    then
+        x :: (filter p xs)
+    else
+        filter p xs
+```
